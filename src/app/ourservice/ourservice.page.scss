@@ -1,0 +1,87 @@
+.background-wave {
+  background-color: rgb(194, 193, 193);
+  animation-name: example;
+  animation-duration: 3s;
+
+
+
+
+  .back {
+    margin-top: 0px;
+
+    .colom {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-left: 44px;
+      padding-top: 28px;
+    }
+
+    h1 {
+      margin-top: 0px;
+      position: relative;
+      right: 8rem;
+      bottom: 9px;
+    }
+  }
+
+  .search {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    ion-searchbar {
+      width: 80%;
+      margin-left: 34px;
+      background-color: white;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      margin-right: 302px;
+    }
+
+    img {
+      max-width: 102%;
+      background-color: white;
+      padding: 6px;
+      border-radius: 10px;
+      margin-left: -25px;
+    }
+  }
+
+  .background-wrapper {
+    padding-top: 10px;
+    background-color: #f1faf3;
+    border-radius: 20px 20px 0 0;
+
+    .font {
+      h1 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 22px;
+      }
+    }
+
+    .list {
+
+      ion-list {
+        background-color: rgb(238, 234, 234);
+        margin-left: 22px;
+        border-radius: 12px;
+        margin-bottom: 14px;
+        margin-right: 12px;
+      }
+
+      img {
+        width: 96px;
+
+      }
+
+      h1 {
+        color: cornflowerblue;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 22px;
+        font-size: 22px;
+      }
+    }
+
+  }
+}

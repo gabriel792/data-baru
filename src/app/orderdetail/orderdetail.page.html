@@ -1,0 +1,101 @@
+<ion-content>
+  <div class="background-wave">
+    <div class="back">
+      <div class="colom">
+        <ion-icon name="caret-back"></ion-icon>
+        <h1>Order Detail</h1>
+      </div>
+    </div>
+
+    <div class="search">
+      <ion-searchbar showCancelButton="never"></ion-searchbar>
+      <img src="assets/icon/adjust.png" alt="">
+    </div>
+
+
+
+    <div class="background-wrapper">
+      <div class="font">
+        <h1>Select Service Category</h1>
+      </div>
+      <!--list-menu-->
+
+      <div class="list">
+        <ion-list>
+          <img src="assets/imgs/polytron_pac-18vxm.jpg" alt="">
+          <h1>Reinstall OS</h1>
+          <h2>Silahkan JIka ingin service</h2>
+          <ion-buttons>
+            <button (tap)="decrement()" ion-button small color="light">
+              -
+            </button>
+            {{banyaknya}}
+            <button ion-button small clear color="dark">
+            </button>
+
+            <button (tap)="increment()" ion-button small color="light">
+              +
+            </button>
+          </ion-buttons>
+        </ion-list>
+        <ion-list>
+          <img src="assets/imgs/kipas.jpg" alt="">
+          <h1>Keyboard Serveice</h1>
+          <h2>Silahkan JIka ingin service</h2>
+          <ion-buttons>
+            <button (tap)="decrement()" ion-button small color="light">
+              -
+            </button>
+            {{banyaknya}}
+            <button ion-button small clear color="dark">
+            </button>
+
+            <button (tap)="increment()" ion-button small color="light">
+              +
+            </button>
+          </ion-buttons>
+        </ion-list>
+        <ion-list>
+          <img src="assets/imgs/polytron_pac-18vxm.jpg" alt="">
+          <h1>Hard Service</h1>
+          <h2>Silahkan JIka ingin service</h2>
+          <ion-buttons>
+            <button (tap)="decrement()" ion-button small color="light">
+              -
+            </button>
+            {{banyaknya}}
+            <button ion-button small clear color="dark">
+            </button>
+
+            <button (tap)="increment()" ion-button small color="light">
+              +
+            </button>
+          </ion-buttons>
+        </ion-list>
+        <ion-list>
+          <img src="assets/imgs/kipas.jpg" alt="">
+          <h1>Wifi Eror</h1>
+          <h2>Silahkan JIka ingin service</h2>
+          <ion-buttons>
+
+            <button (tap)="decrement()" ion-button small color="light">
+              -
+            </button>
+            {{banyaknya}}
+            <button ion-button small clear color="dark">
+            </button>
+
+            <button (tap)="increment()" ion-button small color="light">
+              +
+            </button>
+          </ion-buttons>
+        </ion-list>
+
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <h1>Total Payment<br>$ 30</h1>
+  <input type="submit" name="login" value="Order Process"><br>
+</ion-footer>
